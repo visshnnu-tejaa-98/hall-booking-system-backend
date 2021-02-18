@@ -1,7 +1,9 @@
 # hall-booking-system-backend
 
 In "/rooms" you will get all the rooms(get route)
+
 In "/rooms" you can add the room for example use the given room (post route)
+
 
 {
     "seats": 4,
@@ -11,8 +13,11 @@ In "/rooms" you can add the room for example use the given room (post route)
     "room_name":"Nivas"
 }
 
+
 In "/bookings" you will get all the customers who has booked the room(get route)
+
 In "/bookings" you can add the customer booking of a room, for example you can give the following data
+
 
 {
     "customer_name": "Arun",
@@ -21,5 +26,6 @@ In "/bookings" you can add the customer booking of a room, for example you can g
     "end_time": "17:00",
     "room_id": 2
 }
+
 
 after performing the above process you will get booked rooms list and customers who booked the room will print in the console.
