@@ -1,5 +1,7 @@
 # hall-booking-system-backend
 
+Use postman to check the app
+
 In "/rooms" you will get all the rooms(get route)
 
 In "/rooms" you can add the room for example use the given room (post route)
